@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.base.lib.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main">
+    <com.base.lib.autolayout.AutoFrameLayout
+        android:layout_width="344px"
+        android:layout_height="439px"
+        android:layout_marginLeft="85px"
+        android:layout_marginTop="95px">
+        <!--相机预览界面，必须设置-->
+        <com.vise.face.CameraPreview
+            android:id="@+id/face_detector_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_face_identity"/>
+    </com.base.lib.autolayout.AutoFrameLayout>
+    <com.base.lib.autolayout.AutoRelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="28px"
+    android:layout_marginTop="20px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+    <View
+        android:layout_width="777px"
+        android:layout_height="13px"
+        android:background="@drawable/top_line_image"
+        android:layout_centerVertical="true"/>
+    <View
+        android:layout_width="125px"
+        android:layout_height="28px"
+        android:background="@drawable/ic_huawei_logo"
+        android:layout_alignParentRight="true"/>
+</com.base.lib.autolayout.AutoRelativeLayout>
+    <View
+        android:layout_width="376px"
+        android:layout_height="58px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45px"
+        android:background="@drawable/bg_mood_title"/>
+    <ImageView
+        android:id="@+id/identity_mood_image"
+        android:layout_width="465px"
+        android:layout_height="389px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100px"
+        android:layout_marginTop="115px"/>
+    <View
+        android:layout_width="111px"
+        android:layout_height="97px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30px"
+        android:layout_marginRight="30px"
+        android:background="@drawable/ic_right_bottom"/>
+</com.base.lib.autolayout.AutoRelativeLayout>

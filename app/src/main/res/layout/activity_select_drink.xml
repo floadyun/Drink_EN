@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.base.lib.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_select_drink">
+    <com.base.lib.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="28px"
+        android:layout_marginTop="30px"
+        android:paddingLeft="30px"
+        android:paddingRight="30px">
+        <View
+            android:layout_width="777px"
+            android:layout_height="13px"
+            android:background="@drawable/top_line_image"
+            android:layout_centerVertical="true"/>
+        <View
+            android:layout_width="125px"
+            android:layout_height="28px"
+            android:background="@drawable/ic_huawei_logo"
+            android:layout_alignParentRight="true"/>
+    </com.base.lib.autolayout.AutoRelativeLayout>
+    <View
+        android:layout_width="333px"
+        android:layout_height="169px"
+        android:background="@drawable/select_drink_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20px"/>
+    <ImageView
+        android:id="@+id/drink_mood_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65px"
+        android:src="@drawable/bg_drink_title_1"/>
+    <com.iwinad.drink.widget.ScaleImageView
+        android:id="@+id/select_drink_image"
+        android:layout_width="326px"
+        android:layout_height="349px"
+        android:src="@drawable/drink_green"
+        android:layout_centerInParent="true"
+        android:background="@drawable/item_drink_selector"
+        android:padding="20px" />
+</com.base.lib.autolayout.AutoRelativeLayout>
